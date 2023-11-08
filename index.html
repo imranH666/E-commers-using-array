@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commers Site</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="nav-main">
+                <div class="logo">
+                    <h3>Organic Fruits</h3>
+                </div>
+                <div class="cart-main">
+                    <h4 class="cart-btn">Cart</h4>
+                    <p class="product-quantity">0</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-box">
+            <div class="cart-list"></div>
+            <div class="cechout-details">
+                <button class="checkout" onclick="checkout()">Checkout</button>
+                <div class="total">
+                    <h5>Total Price: <span class="totalPrice">00</span></h5>
+                </div>
+            </div>
+        </div>
+        
+    </nav>
+
+    <div class="container">
+        <div id="product-list"></div>
+    </div>
+
+
+
+    <script src="js/app.js"></script>
+</body>
+</html>
